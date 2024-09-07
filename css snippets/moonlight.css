@@ -1,0 +1,50 @@
+:root {
+    --background-moonlight: #181e29;
+    --text-moonlight-h1: #bed1f4;
+    --text-moonlight-h2: #b9c0d0;
+    --text-moonlight-h3: #c2c2c2;
+    --text-moonlight: #eceff3;
+    --hr-moonlight: #737583;
+    --link-moonlight: #b9c0d0;
+    --link-moonlight-hover: #bed1f4;
+    --link-unresolved-moonlight: #b9c0d0;
+    --link-unresolved-decoration-moonlight: #b9c0d0;
+    --table-border-moonlight: #737583;
+    --table-header-moonlight: #bed1f4;
+    --code-background-moonlight: #11151d;
+    --blockquote-border-moonlight: #737583;
+    --checkbox-moonlight: #bed1f4;
+}
+
+.page-moonlight {
+    background-color: var(--background-moonlight);
+    color: var(--text-moonlight);
+    --hr-color: var(--hr-moonlight);
+    --link-unresolved-color: var(--link-unresolved-moonlight);
+    --link-external-color: var(--link-moonlight);
+    --link-external-color-hover: var(--link-moonlight-hover);
+    --link-color: var(--link-moonlight);
+    --link-color-hover: var(--link-moonlight-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-moonlight);
+    --table-border-color: var(--table-border-moonlight);
+    --table-header-border-color: var(--table-header-moonlight);
+    --table-header-color: var(--table-header-moonlight);
+    --code-background: var(--code-background-moonlight);
+    --blockquote-border-color: var(--blockquote-border-moonlight);
+    --checkbox-color: var(--checkbox-moonlight);
+}
+
+.page-moonlight-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-moonlight-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-moonlight-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-moonlight-h2);
+    font-size: 32px;
+}
+
+.page-moonlight-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-moonlight-h3);
+}

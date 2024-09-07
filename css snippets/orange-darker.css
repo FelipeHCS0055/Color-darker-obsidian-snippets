@@ -1,0 +1,49 @@
+:root {
+    --background-orange-darker: #1f140a;
+    --text-orange-darker-h1: #ff8a65;
+    --text-orange-darker-h2: #ffab91;
+    --text-orange-darker-h3: #ffccbc;
+    --text-orange-darker: #ffffff;
+    --hr-orange-darker: #ef6c00;
+    --link-orange-darker: #ff7043;
+    --link-orange-darker-hover: #ff8a65;
+    --link-unresolved-orange-darker: #ff7043;
+    --link-unresolved-decoration-orange-darker: #ff7043;
+    --table-border-orange-darker: #ef6c00;
+    --table-header-orange-darker: #ff7043;
+    --code-background-orange-darker: #2b1a10;
+    --blockquote-border-orange-darker: #ef6c00;
+    --checkbox-orange-darker: #ff7043;
+}
+
+.page-orange-darker {
+    background-color: var(--background-orange-darker);
+    --hr-color: var(--hr-orange-darker);
+    --link-unresolved-color: var(--link-unresolved-orange-darker);
+    --link-external-color: var(--link-orange-darker);
+    --link-external-color-hover: var(--link-orange-darker-hover);
+    --link-color: var(--link-orange-darker);
+    --link-color-hover: var(--link-orange-darker-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-orange-darker);
+    --table-border-color: var(--table-border-orange-darker);
+    --table-header-border-color: var(--table-header-orange-darker);
+    --table-header-color: var(--table-header-orange-darker);
+    --code-background: var(--code-background-orange-darker);
+    --blockquote-border-color: var(--blockquote-border-orange-darker);
+    --checkbox-color: var(--checkbox-orange-darker);
+}
+
+.page-orange-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-orange-darker-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-orange-darker-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-orange-darker-h2);
+    font-size: 32px;
+}
+
+.page-orange-darker-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-orange-darker-h3);
+}

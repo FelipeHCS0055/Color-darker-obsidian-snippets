@@ -1,0 +1,50 @@
+:root {
+    --background-sand: #352f2a;
+    --text-sand-h1: #ece1cc;
+    --text-sand-h2: #f2e5c5;
+    --text-sand-h3: #e4d5b2;
+    --text-sand: #e3d8c5;
+    --hr-sand: #ccb58d;
+    --link-sand: #f2e5c5;
+    --link-sand-hover: #f2e5c5;
+    --link-unresolved-sand: #f2e5c5;
+    --link-unresolved-decoration-sand: #f2e5c5;
+    --table-border-sand: #ccb58d;
+    --table-header-sand: #f2e5c5;
+    --code-background-sand: #2c2621;
+    --blockquote-border-sand: #ccb58d;
+    --checkbox-sand: #f2e5c5;
+}
+
+.page-sand {
+    background-color: var(--background-sand);
+    color: var(--text-sand);
+    --hr-color: var(--hr-sand);
+    --link-unresolved-color: var(--link-unresolved-sand);
+    --link-external-color: var(--link-sand);
+    --link-external-color-hover: var(--link-sand-hover);
+    --link-color: var(--link-sand);
+    --link-color-hover: var(--link-sand-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-sand);
+    --table-border-color: var(--table-border-sand);
+    --table-header-border-color: var(--table-header-sand);
+    --table-header-color: var(--table-header-sand);
+    --code-background: var(--code-background-sand);
+    --blockquote-border-color: var(--blockquote-border-sand);
+    --checkbox-color: var(--checkbox-sand);
+}
+
+.page-sand-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-sand-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-sand-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-sand-h2);
+    font-size: 32px;
+}
+
+.page-sand-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-sand-h3);
+}

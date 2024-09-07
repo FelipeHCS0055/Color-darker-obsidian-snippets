@@ -1,0 +1,49 @@
+:root {
+    --background-red-darker: #1a0f0f;
+    --text-red-darker-h1: #ff6b6b;
+    --text-red-darker-h2: #ff7f7f;
+    --text-red-darker-h3: #ff9999;
+    --text-red-darker: #ffffff;
+    --hr-red-darker: #c62828;
+    --link-red-darker: #ff5252;
+    --link-red-darker-hover: #ff867c;
+    --link-unresolved-red-darker: #ff5252;
+    --link-unresolved-decoration-red-darker: #ff5252;
+    --table-border-red-darker: #c62828;
+    --table-header-red-darker: #ff5252;
+    --code-background-red-darker: #2b0f0f;
+    --blockquote-border-red-darker: #c62828;
+    --checkbox-red-darker: #ff5252;
+}
+
+.page-red-darker {
+    background-color: var(--background-red-darker);
+    --hr-color: var(--hr-red-darker);
+    --link-unresolved-color: var(--link-unresolved-red-darker);
+    --link-external-color: var(--link-red-darker);
+    --link-external-color-hover: var(--link-red-darker-hover);
+    --link-color: var(--link-red-darker);
+    --link-color-hover: var(--link-red-darker-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-red-darker);
+    --table-border-color: var(--table-border-red-darker);
+    --table-header-border-color: var(--table-header-red-darker);
+    --table-header-color: var(--table-header-red-darker);
+    --code-background: var(--code-background-red-darker);
+    --blockquote-border-color: var(--blockquote-border-red-darker);
+    --checkbox-color: var(--checkbox-red-darker);
+}
+
+.page-red-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-red-darker-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-red-darker-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-red-darker-h2);
+    font-size: 32px;
+}
+
+.page-red-darker-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-red-darker-h3);
+}

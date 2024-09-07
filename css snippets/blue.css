@@ -1,0 +1,50 @@
+:root {
+    --background-blue: #181f30;
+    --text-blue-h1: #b9d0ff;
+    --text-blue-h2: #c5d8ff;
+    --text-blue-h3: #b2bedc;
+    --text-blue: #eaedf1;
+    --hr-blue: #737a95;
+    --link-blue: #b9d0ff;
+    --link-blue-hover: #d0e0ff;
+    --link-unresolved-blue: #b9d0ff;
+    --link-unresolved-decoration-blue: #b9d0ff;
+    --table-border-blue: #737a95;
+    --table-header-blue: #b9d0ff;
+    --code-background-blue: #11151d;
+    --blockquote-border-blue: #737a95;
+    --checkbox-blue: #b9d0ff;
+}
+
+.page-blue {
+    background-color: var(--background-blue);
+    color: var(--text-blue);
+    --hr-color: var(--hr-blue);
+    --link-unresolved-color: var(--link-unresolved-blue);
+    --link-external-color: var(--link-blue);
+    --link-external-color-hover: var(--link-blue-hover);
+    --link-color: var(--link-blue);
+    --link-color-hover: var(--link-blue-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-blue);
+    --table-border-color: var(--table-border-blue);
+    --table-header-border-color: var(--table-header-blue);
+    --table-header-color: var(--table-header-blue);
+    --code-background: var(--code-background-blue);
+    --blockquote-border-color: var(--blockquote-border-blue);
+    --checkbox-color: var(--checkbox-blue);
+}
+
+.page-blue-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-blue-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-blue-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-blue-h2);
+    font-size: 32px;
+}
+
+.page-blue-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-blue-h3);
+}

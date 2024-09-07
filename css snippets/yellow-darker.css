@@ -1,0 +1,49 @@
+:root {
+    --background-yellow-darker: #18150f;
+    --text-yellow-darker-h1: #f3d46e;
+    --text-yellow-darker-h2: #ffe082;
+    --text-yellow-darker-h3: #ffecb3;
+    --text-yellow-darker: #ffffff;
+    --hr-yellow-darker: #b58900;
+    --link-yellow-darker: #ffeb3b;
+    --link-yellow-darker-hover: #fff176;
+    --link-unresolved-yellow-darker: #ffeb3b;
+    --link-unresolved-decoration-yellow-darker: #ffeb3b;
+    --table-border-yellow-darker: #b58900;
+    --table-header-yellow-darker: #ffeb3b;
+    --code-background-yellow-darker: #2d2817;
+    --blockquote-border-yellow-darker: #b58900;
+    --checkbox-yellow-darker: #ffeb3b;
+}
+
+.page-yellow-darker {
+    background-color: var(--background-yellow-darker);
+    --hr-color: var(--hr-yellow-darker);
+    --link-unresolved-color: var(--link-unresolved-yellow-darker);
+    --link-external-color: var(--link-yellow-darker);
+    --link-external-color-hover: var(--link-yellow-darker-hover);
+    --link-color: var(--link-yellow-darker);
+    --link-color-hover: var(--link-yellow-darker-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-yellow-darker);
+    --table-border-color: var(--table-border-yellow-darker);
+    --table-header-border-color: var(--table-header-yellow-darker);
+    --table-header-color: var(--table-header-yellow-darker);
+    --code-background: var(--code-background-yellow-darker);
+    --blockquote-border-color: var(--blockquote-border-yellow-darker);
+    --checkbox-color: var(--checkbox-yellow-darker);
+}
+
+.page-yellow-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-yellow-darker-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-yellow-darker-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-yellow-darker-h2);
+    font-size: 32px;
+}
+
+.page-yellow-darker-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-yellow-darker-h3);
+}

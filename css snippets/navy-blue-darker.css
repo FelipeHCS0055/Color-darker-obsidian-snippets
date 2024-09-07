@@ -1,0 +1,49 @@
+:root {
+    --background-navy-blue-darker: #0a0f1f;
+    --text-navy-blue-darker-h1: #5c6bc0;
+    --text-navy-blue-darker-h2: #7986cb;
+    --text-navy-blue-darker-h3: #9fa8da;
+    --text-navy-blue-darker: #ffffff;
+    --hr-navy-blue-darker: #283593;
+    --link-navy-blue-darker: #3f51b5;
+    --link-navy-blue-darker-hover: #7986cb;
+    --link-unresolved-navy-blue-darker: #3f51b5;
+    --link-unresolved-decoration-navy-blue-darker: #3f51b5;
+    --table-border-navy-blue-darker: #283593;
+    --table-header-navy-blue-darker: #3f51b5;
+    --code-background-navy-blue-darker: #1a213f;
+    --blockquote-border-navy-blue-darker: #283593;
+    --checkbox-navy-blue-darker: #3f51b5;
+}
+
+.page-navy-blue-darker {
+    background-color: var(--background-navy-blue-darker);
+    --hr-color: var(--hr-navy-blue-darker);
+    --link-unresolved-color: var(--link-unresolved-navy-blue-darker);
+    --link-external-color: var(--link-navy-blue-darker);
+    --link-external-color-hover: var(--link-navy-blue-darker-hover);
+    --link-color: var(--link-navy-blue-darker);
+    --link-color-hover: var(--link-navy-blue-darker-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-navy-blue-darker);
+    --table-border-color: var(--table-border-navy-blue-darker);
+    --table-header-border-color: var(--table-header-navy-blue-darker);
+    --table-header-color: var(--table-header-navy-blue-darker);
+    --code-background: var(--code-background-navy-blue-darker);
+    --blockquote-border-color: var(--blockquote-border-navy-blue-darker);
+    --checkbox-color: var(--checkbox-navy-blue-darker);
+}
+
+.page-navy-blue-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-navy-blue-darker-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-navy-blue-darker-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-navy-blue-darker-h2);
+    font-size: 32px;
+}
+
+.page-navy-blue-darker-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-navy-blue-darker-h3);
+}

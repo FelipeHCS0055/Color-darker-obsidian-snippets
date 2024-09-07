@@ -1,0 +1,49 @@
+:root {
+    --background-lime-green-darker: #1a2f0f;
+    --text-lime-green-darker-h1: #aeea00;
+    --text-lime-green-darker-h2: #cddc39;
+    --text-lime-green-darker-h3: #d4e157;
+    --text-lime-green-darker: #ffffff;
+    --hr-lime-green-darker: #827717;
+    --link-lime-green-darker: #c6ff00;
+    --link-lime-green-darker-hover: #d4e157;
+    --link-unresolved-lime-green-darker: #c6ff00;
+    --link-unresolved-decoration-lime-green-darker: #c6ff00;
+    --table-border-lime-green-darker: #827717;
+    --table-header-lime-green-darker: #c6ff00;
+    --code-background-lime-green-darker: #213613;
+    --blockquote-border-lime-green-darker: #827717;
+    --checkbox-lime-green-darker: #c6ff00;
+}
+
+.page-lime-green-darker {
+    background-color: var(--background-lime-green-darker);
+    --hr-color: var(--hr-lime-green-darker);
+    --link-unresolved-color: var(--link-unresolved-lime-green-darker);
+    --link-external-color: var(--link-lime-green-darker);
+    --link-external-color-hover: var(--link-lime-green-darker-hover);
+    --link-color: var(--link-lime-green-darker);
+    --link-color-hover: var(--link-lime-green-darker-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-lime-green-darker);
+    --table-border-color: var(--table-border-lime-green-darker);
+    --table-header-border-color: var(--table-header-lime-green-darker);
+    --table-header-color: var(--table-header-lime-green-darker);
+    --code-background: var(--code-background-lime-green-darker);
+    --blockquote-border-color: var(--blockquote-border-lime-green-darker);
+    --checkbox-color: var(--checkbox-lime-green-darker);
+}
+
+.page-lime-green-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-lime-green-darker-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-lime-green-darker-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-lime-green-darker-h2);
+    font-size: 32px;
+}
+
+.page-lime-green-darker-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-lime-green-darker-h3);
+}

@@ -1,0 +1,49 @@
+:root {
+    --background-teal-darker: #0f1f1f;
+    --text-teal-darker-h1: #64ffda;
+    --text-teal-darker-h2: #4db6ac;
+    --text-teal-darker-h3: #26a69a;
+    --text-teal-darker: #ffffff;
+    --hr-teal-darker: #00796b;
+    --link-teal-darker: #009688;
+    --link-teal-darker-hover: #4db6ac;
+    --link-unresolved-teal-darker: #009688;
+    --link-unresolved-decoration-teal-darker: #009688;
+    --table-border-teal-darker: #00796b;
+    --table-header-teal-darker: #009688;
+    --code-background-teal-darker: #102b2b;
+    --blockquote-border-teal-darker: #00796b;
+    --checkbox-teal-darker: #009688;
+}
+
+.page-teal-darker {
+    background-color: var(--background-teal-darker);
+    --hr-color: var(--hr-teal-darker);
+    --link-unresolved-color: var(--link-unresolved-teal-darker);
+    --link-external-color: var(--link-teal-darker);
+    --link-external-color-hover: var(--link-teal-darker-hover);
+    --link-color: var(--link-teal-darker);
+    --link-color-hover: var(--link-teal-darker-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-teal-darker);
+    --table-border-color: var(--table-border-teal-darker);
+    --table-header-border-color: var(--table-header-teal-darker);
+    --table-header-color: var(--table-header-teal-darker);
+    --code-background: var(--code-background-teal-darker);
+    --blockquote-border-color: var(--blockquote-border-teal-darker);
+    --checkbox-color: var(--checkbox-teal-darker);
+}
+
+.page-teal-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-teal-darker-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-teal-darker-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-teal-darker-h2);
+    font-size: 32px;
+}
+
+.page-teal-darker-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-teal-darker-h3);
+}

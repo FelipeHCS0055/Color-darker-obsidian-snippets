@@ -1,0 +1,50 @@
+:root {
+    --background-granite: #18191c;
+    --text-granite-h1: #d7e5ff;
+    --text-granite-h2: #d6e0f3;
+    --text-granite-h3: #9aa9c5f1;
+    --text-granite: #d6e0f3;
+    --hr-granite: #8594ae;
+    --link-granite: #d6e0f3;
+    --link-granite-hover: #d6e0f3;
+    --link-unresolved-granite: #d6e0f3;
+    --link-unresolved-decoration-granite: #d6e0f3;
+    --table-border-granite: #8594ae;
+    --table-header-granite: #d6e0f3;
+    --code-background-granite: #131417;
+    --blockquote-border-granite: #8594ae;
+    --checkbox-granite: #d6e0f3;
+}
+
+.page-granite {
+    background-color: var(--background-granite);
+    color: var(--text-granite);
+    --hr-color: var(--hr-granite);
+    --link-unresolved-color: var(--link-unresolved-granite);
+    --link-external-color: var(--link-granite);
+    --link-external-color-hover: var(--link-granite-hover);
+    --link-color: var(--link-granite);
+    --link-color-hover: var(--link-granite-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-granite);
+    --table-border-color: var(--table-border-granite);
+    --table-header-border-color: var(--table-header-granite);
+    --table-header-color: var(--table-header-granite);
+    --code-background: var(--code-background-granite);
+    --blockquote-border-color: var(--blockquote-border-granite);
+    --checkbox-color: var(--checkbox-granite);
+}
+
+.page-granite-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-granite-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-granite-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-granite-h2);
+    font-size: 32px;
+}
+
+.page-granite-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-granite-h3);
+}
