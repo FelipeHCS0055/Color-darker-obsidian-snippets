@@ -48,7 +48,7 @@ To make the most out of these CSS Snippets, follow the step-by-step guide below 
 - Toggle the switch next to each snippet you want to use to make them available.
 <br>
 
-If you still facing problems trying to enable css snippets in Obsidian, check this video I found in the web:
+If you still facing problems trying to enable css snippets in Obsidian, check [this video](https://www.youtube.com/watch?v=xzkSn0wQ1Pk) I found in the web (or click the image above):
 
 <div align="center">
       <a href="https://youtu.be/xzkSn0wQ1Pk?si=Q2ED_n3K1FZNWtua">
