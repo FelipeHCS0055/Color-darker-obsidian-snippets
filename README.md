@@ -79,7 +79,7 @@ This repository is a collective effort inspired by many talented members of the 
 I would like to extend a special thanks to **Arthur** (known as `coronelvermelho` on Discord) for his invaluable contributions and ideas throughout the creation of this project. Many of the concepts and inspiration came from our conversations.
 
 <div align="center">
-  <img src="media/arthur.jpeg" alt="Arthur Profile" width="150" style="border-radius: 50%;">
+  <a href="https://github.com/CoronelVermelho"><img src="media/arthur.jpeg" height="auto" width="150" style="border-radius:50%"></a>
   <p><strong>Arthur</strong></p>
   <p>(coronelvermelho on Discord)</p>
 </div>
