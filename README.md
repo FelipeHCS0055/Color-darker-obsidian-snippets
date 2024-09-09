@@ -25,23 +25,23 @@ Feel free to submit pull requests or create issues with your ideas, suggestions,
 
 ## 📂 CSS Snippets
 
-### 👁️ Check the available snippts
+### 👁️ Check the available snippets
 
-You can view the available CSS Snippets in the [CSS Snippets Directory](css%20snippets\PREVIEW.md). This file contains a list of all the snippets, along with a brief description and preview of each one to help you decide which customization suits your needs. You can also download all of them, why not? 😉
+You can view the available CSS Snippets in the [CSS Snippets Directory](PREVIEW.md). This file contains a list of all the snippets, along with a brief description and preview of each one to help you decide which customization suits your needs. You can also download all of them, why not? 😉
 
-### 💻 How to Download and Activate the Snippets
+### 💻 How to download and activate the snippets
 
 To make the most out of these CSS Snippets, follow the step-by-step guide below to download and activate them in Obsidian:
 
-1. __Download the Snippets__
+1. __Download the snippets__
 - Go to the __Releases__ section of this repository.
 - Download the latest _.zip_ file containing all the CSS snippets.
-2. __Extract and Move the Snippets__
+2. __Extract and move the snippets__
 - Open Obsidian and go to Settings (click on the gear icon at the bottom left).
 - Navigate to __Appearance__ > __CSS Snippets__.
 - Click on the __Open Snippets Folder__ button. This will open the file explorer pointing to the correct folder where Obsidian looks for snippets.
 - Extract the contents of the downloaded _.zip_ file directly into this folder. This will ensure all the CSS files are placed in the correct location.
-3. __Activate the Snippets__
+3. __Activate the snippets__
 - Return to the __CSS Snippets section__ in Obsidian's settings.
 - Click on the __Refresh__ button
 - You should see a list of all the snippets you just added.
@@ -51,14 +51,16 @@ To make the most out of these CSS Snippets, follow the step-by-step guide below 
 If you still facing problems trying to enable css snippets in Obsidian, check this video I found in the web:
 
 <div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/xzkSn0wQ1Pk" frameborder="0" allowfullscreen></iframe>
+      <a href="https://youtu.be/xzkSn0wQ1Pk?si=Q2ED_n3K1FZNWtua">
+         <img src="media/tb1.jpg" style="width:80%;">
+      </a>
 </div>
 
-### ✅ Applying the Snippets
+### ✅ Applying the snippets
 
 To apply the snippets, you must use the appropriate `cssclasses` in the properties of your notes. Each snippet has its own `cssclasses` that must be added to the frontmatter for the snippet's styles to take effect.
 
-The `cssclasses` required for each snippet are listed in the [CSS Snippets Directory](css%20snippets\PREVIEW.md). Make sure to check this file for the correct `cssclasses` associated with each snippet. Here's how to apply them:
+The `cssclasses` required for each snippet are listed in the [CSS Snippets Directory](PREVIEW.md). Make sure to check this file for the correct `cssclasses` associated with each snippet. Here's how to apply them:
 1. Open the note where you want to apply a snippet.
 2. At the very top of the note, add or edit the YAML frontmatter to include the cssclasses property.
 3. Now, the styles associated with the snippet should be applied.
@@ -72,3 +74,12 @@ This repository is a collective effort inspired by many talented members of the 
 - [Obsidian Members Group (Discord Community)](https://discord.com/invite/obsidianmd)
 - [Hero Patterns](https://heropatterns.com/)
 
+### 🙏 Special Thanks
+
+I would like to extend a special thanks to **Arthur** (known as `coronelvermelho` on Discord) for his invaluable contributions and ideas throughout the creation of this project. Many of the concepts and inspiration came from our conversations.
+
+<div align="center">
+  <img src="media/arthur.jpeg" alt="Arthur Profile" width="150" style="border-radius: 50%;">
+  <p><strong>Arthur</strong></p>
+  <p>(coronelvermelho on Discord)</p>
+</div>
