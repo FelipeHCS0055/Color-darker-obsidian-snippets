@@ -48,6 +48,15 @@ This one only changes the note backgrounds (it does not change text colors)
   cssclasses: "page-cyan-darker" and "page-cyan-darker-headings"
 </p>
 
+## Daily-winter-arc
+
+<p align="center">
+  <img src="media/daily-winter-arc.png" alt="cyan-darker" width="500" style="display: block; margin: 0 auto;" />
+</p>
+<p align="center">
+  cssclasses: "daily-winter-arc"
+</p>
+
 ## Granite
 
 <p align="center">
