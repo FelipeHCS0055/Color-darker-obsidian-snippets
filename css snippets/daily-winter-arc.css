@@ -1,0 +1,92 @@
+/*------------------------------------------------------------------------------
+                     Winter Arc Theme by FelipeSilva
+
+A dark, wintry theme for daily notes used during the "Winter Arc" (October 1 to December 31).
+Apply the .daily-winter-arc class to your daily notes to activate this theme.
+
+This theme features cold, dark colors to symbolize winter and personal growth during the last months of the year.
+------------------------------------------------------------------------------*/
+
+.daily-winter-arc {
+  --highlight: #a9c5ea;
+  /* Icy blue for highlights */
+  --primary: #2a4f6d;
+  /* Deep cold blue for primary accents */
+  --dark: #0d1b2a;
+  /* Dark background like a winter night */
+  color: var(--highlight);
+  background-color: var(--dark);
+  --text-normal: var(--highlight);
+  --text-muted: var(--primary);
+  --text-faint: var(--highlight);
+  --checklist-done-color: var(--primary);
+  --metadata-label-text-color: var(--highlight);
+  --metadata-input-text-color: var(--highlight);
+  --tag-color: var(--dark);
+  --tag-background: var(--primary);
+  --hr-color: var(--primary);
+  --blockquote-border-color: var(--primary);
+  --interactive-accent: var(--highlight);
+  --collapse-icon-color-collapsed: var(--primary);
+  --checkbox-color: var(--highlight);
+  --checkbox-marker-color: var(--dark);
+  --checkbox-color-hover: var(--primary);
+  --checkbox-border-color: var(--primary);
+  --list-marker-color: var(--highlight);
+  --code-background: #16243d;
+  /* Deep blue for code blocks */
+  --code-normal: var(--highlight);
+  --background-modifier-border-focus: var(--primary);
+  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+
+.daily-winter-arc :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+
+.daily-winter-arc :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--highlight);
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-style: italic;
+  padding: 0 !important;
+}
+
+.daily-winter-arc :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 32px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+}
+
+.daily-winter-arc p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.daily-winter-arc :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primary);
+}
+
+.daily-winter-arc :is(a:hover, .cm-hmd-internal-link:hover) {
+  color: var(--highlight);
+}
+
+.daily-winter-arc hr {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.daily-winter-arc img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
